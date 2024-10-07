@@ -41,3 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 3878539109
+    locked: 0
+  - name: decoracion
+    uniqueID: 3175566921
+    locked: 0
+  - name: Personajes
+    uniqueID: 18542005
+    locked: 0
+  - name: pisos
+    uniqueID: 127003695
+    locked: 0
+  - name: paredes
+    uniqueID: 4135173103
+    locked: 0

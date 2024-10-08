@@ -5,6 +5,7 @@ using UnityEngine;
 public class Healthmanagement : MonoBehaviour
 {
     [SerializeField]float vida;
+    [SerializeField]float vidamax;
 
     public void recibirdaño(float daño)
     {
@@ -13,6 +14,14 @@ public class Healthmanagement : MonoBehaviour
         if (vida <= 0) 
         {
             Destroy(gameObject);
+        }
+    }
+    public void recibircura(float cura)
+    {
+        vida+= cura;
+        if (vida > vidamax)
+        {
+            vida = vidamax;
         }
     }
 }

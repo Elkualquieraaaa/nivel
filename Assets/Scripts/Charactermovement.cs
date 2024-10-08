@@ -31,7 +31,7 @@ public class Charactermovement : MonoBehaviour
 
         valuem = Input.GetAxis("Horizontal");
 
-        rigid.velocity = new Vector2(valuem * velocitym*Time.deltaTime, rigid.velocity.y);
+        rigid.velocity = new Vector2(valuem * velocitym, rigid.velocity.y)*Time.deltaTime;
         //transform.Translate(new Vector3(valuem * velocitym, 0, 0) * Time.deltaTime);
 
         if (Input.GetKeyDown(KeyCode.Space) && tocandoelsuelo)

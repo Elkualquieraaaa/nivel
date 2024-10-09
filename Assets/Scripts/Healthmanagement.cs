@@ -18,7 +18,8 @@ public class Healthmanagement : MonoBehaviour
     }
     public void recibircura(float cura)
     {
-        vida+= cura;
+        vida += cura;
+
         if (vida > vidamax)
         {
             vida = vidamax;

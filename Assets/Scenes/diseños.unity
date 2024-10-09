@@ -4609,7 +4609,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5450065260569536644, guid: 8497004f6ce959b42aa84b9f46371fa5, type: 3}
       propertyPath: velocity
-      value: -102
+      value: -200
       objectReference: {fileID: 0}
     - target: {fileID: 5659006643520100721, guid: 8497004f6ce959b42aa84b9f46371fa5, type: 3}
       propertyPath: "da\xF1o"
@@ -12732,7 +12732,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7898320469121730387, guid: 5e209f8912eb0ce4991391802a826fca, type: 3}
       propertyPath: velocity
-      value: -100
+      value: -198
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3214876392964494689}
   - component: {fileID: 7949706413887115103}
   - component: {fileID: 8428430666780837355}
+  - component: {fileID: 612163707807954645}
   m_Layer: 0
   m_Name: Naranja
   m_TagString: Untagged
@@ -156,3 +157,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cura: 25
+--- !u!114 &612163707807954645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7000073672863055075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34172cbaca17eae46bbf8631308bfd5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 20

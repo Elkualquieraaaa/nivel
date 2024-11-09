@@ -28,7 +28,7 @@ public class Simulatormanager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (character.tocandoelsuelo)
+        if (character.tocandoelsuelo == false)
         {
             Timecontroller.Startimer(5);
         }

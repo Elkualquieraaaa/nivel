@@ -595,6 +595,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &204243963 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7956386600595141274, guid: e3d3996dfd915e14d80f09eba12214aa, type: 3}
+  m_PrefabInstance: {fileID: 204243952}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204243953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a147edc8bf84f14aa7402c2a7b260b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &247597485
 GameObject:
   m_ObjectHideFlags: 0
@@ -1406,6 +1417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Timecontroller: {fileID: 752143614}
+  character: {fileID: 204243963}
   scorecontroller: {fileID: 3742199}
 --- !u!4 &571614255
 Transform:
@@ -4359,6 +4371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Timecontroller: {fileID: 752143614}
+  character: {fileID: 0}
   scorecontroller: {fileID: 3742199}
 --- !u!4 &1367865359
 Transform:

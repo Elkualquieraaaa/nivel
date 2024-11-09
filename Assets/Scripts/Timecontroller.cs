@@ -13,7 +13,7 @@ public class Timecontroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Startimer(currenttime);
     }
 
     public void Startimer(float time) 

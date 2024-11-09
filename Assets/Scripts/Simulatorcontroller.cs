@@ -8,6 +8,7 @@ public class Simulatormanager : MonoBehaviour
     public static Simulatormanager instance;
 
     [SerializeField] Timecontroller Timecontroller;
+    [SerializeField] Charactermovement character;
 
     public Scorecontroller scorecontroller;
     // Start is called before the first frame update
@@ -27,9 +28,9 @@ public class Simulatormanager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-    public void startime()
-    {
+        if (character.tocandoelsuelo)
+        {
+            Timecontroller.Startimer(5);
+        }
     }
 }

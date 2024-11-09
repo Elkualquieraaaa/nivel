@@ -6,7 +6,7 @@ public class Charactermovement : MonoBehaviour
 {
     Rigidbody2D rigid;
     [SerializeField]float velocitym = 10f;
-    [SerializeField] bool tocandoelsuelo;
+    public bool tocandoelsuelo;
     [SerializeField] float radius = 1.8f;
     [SerializeField] Transform objeto;
     [SerializeField]float forcej = 1000f;

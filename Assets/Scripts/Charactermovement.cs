@@ -26,8 +26,6 @@ public class Charactermovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Rigidbody2D rigid;
-        rigid = GetComponent<Rigidbody2D>();
 
 
         tocandoelsuelo = Physics2D.OverlapCircle(objeto.position, radius, Mask);
